@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Services</title>
+        <style>
+		header{
+          font-size: 2.1rem;
+          line-height: 1.4;
+          letter-spacing: 0.5rem;
+          text-align: center;
+          position: sticky;
+      }
+            body p{
+                font-size: 1.2rem;
+            }
+            body::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 193%;
+                width: 100%;
+                z-index: -1;
+				
+                
+                background-image: linear-gradient(
+                    115deg,
+                    rgba(0,0,0,0),
+                    rgba(0,0,0,0)
+                    ),
+                    url(https://thumbs.dreamstime.com/b/open-book-fairytales-magic-lights-blue-background-creative-design-171587817.jpg);
+                
+                background-repeat: no-repeat;
+                background-position: center;
+                opacity: 0.8;
+                background-size: 100% 100%;
+            }
+            #form1{
+                border:2px solid red;
+                border-radius: 69px;
+                display: inline-block;
+                margin: auto;
+                background-color: black;
+                color:white;
+                margin: 35px;
+                padding: 20px;
+                margin-left: 37%;
+            }
+			@media (max-width: 360px){
+			body::before{
+			height: 250%;
+			}
+			}
+			@media (min-width: 360px) and (max-width: 1454px){
+			body::before{
+			height: 250%;
+			}
+			}
+			@media (min-width: 1454px){
+			body::before{
+			height: 250%;
+			}
+			}
+
+			
+			
+        </style>
+    </head>
+    <body>
+	<header>
+           <h>SERVICES</h>
+      </header>
+        <h1>New Ideas - Strategies and Techniques</h1>
+        <p>Inspiring Innovation Through Creative Thinking</p>
+        <p>An open mind is a valuable resource. When you're interested in new possibilities, and able to think creatively, you're more likely to stay energized in your role – and keep your team or organization one step ahead of the competition.
+
+            And sometimes, the success of a project depends on more than just small tweaks or suggestions for new ways forward. It needs someone to come up with a big, radical, innovative idea.
+
+            This article shows you how that "someone" could be you!</p>
+
+        <div>
+            <h2>
+                The Power of New Ideas
+            </h2>
+            <p>You don't have to be "artistic" to be creative. Everyone can learn to generate bold, groundbreaking ideas by adopting a creative approach  and applying the best thinking tools.
+
+                There are three key approaches to generating new ideas:</p>
+            <ul>
+                <li>Breaking old thinking patterns.</li>
+                <li>Making new connections.</li>
+                <li>Getting fresh perspectives.</li>
+
+            </ul>
+            <p>We'll look at each of these elements in turn. Then, we’ll outline five ways to foster the best environment for creative thinking to flourish.</p>
+        </div>
+
+        <div>
+            <h2>1. Breaking Old Thinking Patterns</h2>
+            <p>We can all get stuck in certain "tracks" of thought. They may be so comfortable that we don't even realize that they're holding us back! So, to have fresh ideas, we need to break away from established patterns of thought and start to see new paths ahead.</p>
+        </div>
+        <div>
+            <h2>2. Making New Connections</h2>
+            <p>Another way to generate new ideas is to make new and unexpected connections. Some of the best ideas seem to occur almost by chance – you see or hear something unconnected with the situation you're trying to resolve, and a lightbulb goes on in your head!
+
+                For instance, inventor George de Mestral was inspired to invent Velcro® by the burdock burrs that got stuck to his dog's fur during a countryside walk. And architect Mick Pearce developed a groundbreaking climate-control system based on the self-cooling mounds built by termites.</p>
+        </div>
+        <div>
+            <h2>3. Finding Fresh Perspectives</h2>
+            <p>Finally, you can add extra dynamism to your thinking by taking a step back from your usual standpoint and viewing a problem through "fresh eyes."
+
+                You'll often get a surprising new take on an issue by talking to someone with a different perspective, maybe because of their age, life experience, or cultural background.
+
+                Or, try playing the "If I Were" game. Ask yourself, how would I address this challenge "if I were…?" You could be an athlete, a successful entrepreneur, Abraham Lincoln… anyone!
+
+                Consider how the person you've chosen would approach the problem, and see if that gives you any new ideas. Identify that person's distinguishing characteristics, and use them to address the challenge. The entrepreneur, for instance, might take bigger risks, while the athlete would focus on achieving success through intensive training.</p>
+        </div>
+        <div id="form1">
+            <form action="backend.php">
+                <h1>Subscribe to Our Club</h1>
+                <p>Recive updates instantly</p>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="myName" id="name" placeholder="Enter your name">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="myEmail" id="email" placeholder="Enter your emaid address">
+                </div>
+                <br>
+                <div>
+                    <label for="mobno">Mobile No.:</label>
+                    <input type="number" name="myMobileno" id="mobno" placeholder="Enter your Mobile Number">
+                </div>
+                <br>
+                <div>                      
+                    <input type="submit" value="Subscribe Now">
+
+
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

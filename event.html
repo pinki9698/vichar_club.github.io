@@ -1,0 +1,135 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Events</title>
+		
+        <style>
+            body{
+                background-color: rgba(27,31,34,0.85);
+            }
+            h1{
+                font-size:2.1rem;
+                line-height:1.4;
+                letter-spacing: 0.5rem;
+                text-align: center;
+                color: white;
+                margin-top: 50px;
+            }
+            img{
+                height: 300px;
+                width: 200px;
+            }
+
+            .maindiv{
+                width: 70%;
+                height: 400px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                background-image: url('https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60');
+                background-size: 100% 100%;
+                box-shadow: 1px 2px 10px 4px white;
+                animation:slider 9s infinite linear;
+            }
+            @keyframes slider{
+                0%{ background-image: url('https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60'); }
+                35%{ background-image: url('https://www.istockphoto.com/resources/images/HomePage/FourPack/Illustrations-907872186.jpg'); }
+                75%{ background-image: url('https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg'); }
+            }
+            #first{
+                
+                height: 517px;
+            }
+            #second{
+               
+                color: white;
+                display: -webkit-inline-box;
+            }
+           
+            #test{
+                float:left;
+                width:400px;
+            }
+            .box{
+               
+                width:200px;
+                height:200px;
+                display: inline-block;
+  
+            }
+            #events{
+                display: flex;
+            }
+			@media (max-width: 318px;)
+			{
+			#second{
+			display: block;
+			}
+			}
+			@media (min-width: 318px) and (max-width: 1258px){
+			#second{
+			display: block;
+			}
+			}
+			@media (min-width: 1258px)
+			{
+			#second{
+			display: -webkit-inline-box;
+			margin: 50px;
+			}
+			}
+
+        </style>
+    </head>
+    <body>
+        <div id="first">
+            <h1>EVENTS</h1>
+            <div class="maindiv">
+            </div>
+        </div>
+
+        <div id="second">
+            <section><h3 style="color:orange;">Up Coming Events</h3>
+
+                <div >
+                    <div class="box" id="img1">
+                        <ul>
+                            <li>Treasure Hunt - 3rd Jan</li>
+                            <li>Ideathon - Jan 10</li>
+                            <li>Hackathon - jan 26</li>
+                        </ul>
+                        <img src="C:\Users\sonal\Pictures\upcome.jpeg" alt="Upcoming Events">
+                    </div>
+
+                </div>
+
+            </section>
+            <section id="events">
+                <h3 style="display: table; color:orange;">On Going Events</h2></h3>
+                <div >
+                    <div class="box" style=" margin-left: -133px;
+                margin-top: 60px;">Web Designing
+                        <img src="C:\Users\sonal\Pictures\webdes.jpeg" alt="Web Designing Event">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h3 style="color:orange;">Past Coming Events</h3>
+                <div style="margin:8px;" >
+                    <div class="box"  style="margin:8px;">Technical quiz - 7 & 8 December
+                        <img src="C:\Users\sonal\Pictures\quiz1.jpeg" alt="Technical Quiz">
+                    </div>
+                    <div class="box"  style="margin:8px;">Image processing through MATLAB  - 10&11 December
+                        <img src="C:\Users\sonal\Pictures\webinar.jpeg" alt="Technical Quiz">
+                    </div>
+                    <div class="box"  style="margin:8px;">Technical quiz - 15 & 16 December
+                        <img src="C:\Users\sonal\Pictures\quiz2.jpeg" alt="Technical Quiz">
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
